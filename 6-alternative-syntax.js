@@ -7,6 +7,14 @@ const person = {
     name: 'bob'
 }
 
-module.exports.singlePerson = person
+const multiplePerson = {
+    first_name: 'john',
+    last_name : 'wick'
+}
 
-console.log(module.exports)
+module.exports.singlePerson = person
+exports.multiplePerson = multiplePerson
+exports = {}
+
+console.log('exports :', exports)
+console.log('module  :', module)

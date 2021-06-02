@@ -7,6 +7,7 @@ const info = (name) => {
 info("Farhan")
 info(john)
 
+require('./2-global')
 const nama = require('./4-name')
 const funcs = require('./5-utils')
 const data = require('./6-alternative-syntax')
@@ -25,5 +26,6 @@ module.exports = {
 console.log(module)
 console.log(nama)
 console.log(funcs)
+
 
 
